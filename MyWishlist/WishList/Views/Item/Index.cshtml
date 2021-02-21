@@ -1,0 +1,17 @@
+﻿@model List<WishList.Models.Item>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <h1>Wishlist</h1>
+
+    <a class="btn btn-sm btn-primary mb-4" asp-action="create">Add item</a>
+
+    <ul class="list-group">
+        @foreach (var item in Model)
+        {
+        <li class="list-group-item">@item.Description <a class="btn btn-sm btn-danger" asp-action="delete" asp-route-id="@item.Id">delete</a></li>
+}
+    </ul>
+</div>

@@ -1,0 +1,81 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WishList/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/WishList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WishList.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WishList/1.0.0": {
+      "type": "project",
+      "path": "../WishList/WishList.csproj",
+      "msbuildProject": "../WishList/WishList.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "WishList >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Dias\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Dias\\source\\repos\\MyWishlist-main\\WishListTests\\WishListTests.csproj",
+      "projectName": "WishListTests",
+      "projectPath": "C:\\Users\\Dias\\source\\repos\\MyWishlist-main\\WishListTests\\WishListTests.csproj",
+      "packagesPath": "C:\\Users\\Dias\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dias\\source\\repos\\MyWishlist-main\\WishListTests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\Dias\\source\\repos\\MyWishlist-main\\WishList\\WishList.csproj": {
+              "projectPath": "C:\\Users\\Dias\\source\\repos\\MyWishlist-main\\WishList\\WishList.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
